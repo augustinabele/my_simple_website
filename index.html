@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Augustin Abelé, étudiant à Epita, WebDesign, photographies aériennes">
+    <meta name="language" content="fr">
+    <meta name="author" content="Augustin ABELE">
+    <meta name="publisher" content="Augustin ABELE">
+    <meta name="reply-to" content="augustin@abele.site">  
+    <meta name="keywords" content="Augustin, Abelé, création, web-developpeur, web-designeur, full-stack, site web, progrmmation, projet, créateu,r, wikipen"/>
+    <title>Augustin Abelé</title>
+    <link rel="icon" type="image/gif" href="img/icon.png" />
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="contact-area">
+  <div class="contact">
+    <main>
+      <section>
+        <div class="content">
+          <img src="img/me.jpg" alt="Profile Image">
+
+          <aside>
+            <h1>Augustin Abelé</h1>
+            <p>Bonjour, je suis Augustin Abelé, développeur web full stack.</p>
+          </aside>
+          
+          <button>
+            <span>Contactez-moi</span>
+            
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"> <g class="nc-icon-wrapper" fill="#444444"> <path d="M14.83 30.83L24 21.66l9.17 9.17L36 28 24 16 12 28z"></path> </g> </svg>
+          </button>
+        </div>
+
+        <div class="title"><p>Contacts</p></div>
+      </section>
+
+      
+    </main>
+
+    <nav>
+      <a href="mailto:augustin@abele.site" class="email">
+        <div class="icon">
+          <svg>
+            <title>E-mail</title>
+            <use xlink:href="img/email.svg#Layer_1"></use>
+          </svg>
+        </div>
+
+        <div class="content">
+          <h1>E-mail</h1>
+          <span>augustin@abele.site</span>
+        </div>
+        
+        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"> <g class="nc-icon-wrapper" fill="#444444"> <path d="M17.17 32.92l9.17-9.17-9.17-9.17L20 11.75l12 12-12 12z"></path> </g> </svg>
+      </a>
+
+      <a href="https://www.linkedin.com/in/augustinabele/" target="_blank" class="linkedin">
+        <div class="icon">
+          <svg>
+            <title>LinkedIn</title>
+            <use xlink:href="img/linkedin.svg#Layer_1"></use>
+          </svg>
+        </div>
+
+        <div class="content">
+          <h1>LinkedIn</h1>
+          <span>/augustinabele</span>
+        </div>
+        
+        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"> <g class="nc-icon-wrapper" fill="#444444"> <path d="M17.17 32.92l9.17-9.17-9.17-9.17L20 11.75l12 12-12 12z"></path> </g> </svg>
+      </a>
+
+      <a href="https://github.com/augustinabele" target="_blank" class="github">
+        <div class="icon">
+          <svg>
+            <title>GitHub</title>
+            <use xlink:href="img/github.svg#Capa_1"></use>
+          </svg>
+        </div>
+
+        <div class="content">
+          <h1>GitHub</h1>
+          <span>/augustinabele</span>
+        </div>
+        
+        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"> <g class="nc-icon-wrapper" fill="#444444"> <path d="M17.17 32.92l9.17-9.17-9.17-9.17L20 11.75l12 12-12 12z"></path> </g> </svg>
+      </a>
+    </nav>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114769717-2"></script>
+
+<script type="text/javascript">
+
+//animations
+$('button').click(function(){
+    $('button').toggleClass('active');
+    $('.title').toggleClass('active');
+    $('nav').toggleClass('active');
+});
+
+//statistics
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-114769717-2');
+
+</script>
+
+</body>
+
+</html> 
